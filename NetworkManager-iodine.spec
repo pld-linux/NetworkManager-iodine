@@ -2,13 +2,14 @@ Summary:	NetworkManager VPN integration for iodine
 Summary(pl.UTF-8):	Integracja NetworkManagera z iodine
 Name:		NetworkManager-iodine
 Version:	0.0.5
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/NetworkManager-iodine/0.0/%{name}-%{version}.tar.xz
 # Source0-md5:	2f9cff2ef281d4b71e670cdb6bcb0012
 URL:		http://projects.gnome.org/NetworkManager/
 BuildRequires:	NetworkManager-devel >= 2:0.9.9.0
+BuildRequires:	NetworkManager-gtk-lib-devel
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel >= 0.74
