@@ -9,7 +9,7 @@ Source0:	http://ftp.gnome.org/pub/GNOME/sources/NetworkManager-iodine/0.0/%{name
 # Source0-md5:	2f9cff2ef281d4b71e670cdb6bcb0012
 URL:		http://projects.gnome.org/NetworkManager/
 BuildRequires:	NetworkManager-devel >= 2:0.9.9.0
-BuildRequires:	NetworkManager-gtk-lib-devel
+BuildRequires:	NetworkManager-gtk-lib-devel >= 2:0.9.9.0
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel >= 0.74
