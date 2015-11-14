@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/NetworkManager-iodine/0.0/%{name}-%{version}.tar.xz
 # Source0-md5:	2f9cff2ef281d4b71e670cdb6bcb0012
-URL:		http://projects.gnome.org/NetworkManager/
+URL:		https://wiki.gnome.org/Projects/NetworkManager
 BuildRequires:	NetworkManager-devel >= 2:0.9.9.0
 BuildRequires:	NetworkManager-gtk-lib-devel >= 2:0.9.9.0
 BuildRequires:	autoconf >= 2.52
