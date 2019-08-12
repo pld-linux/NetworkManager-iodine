@@ -72,8 +72,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS NEWS
 %attr(755,root,root) %{_libdir}/NetworkManager/libnm-iodine-properties.so
 %attr(755,root,root) %{_libdir}/NetworkManager/libnm-vpn-plugin-iodine.so
-%attr(755,root,root) %{_libdir}/nm-iodine-auth-dialog
-%attr(755,root,root) %{_libdir}/nm-iodine-service
+%attr(755,root,root) %{_libexecdir}/nm-iodine-auth-dialog
+%attr(755,root,root) %{_libexecdir}/nm-iodine-service
 %{_prefix}/lib/NetworkManager/VPN/nm-iodine-service.name
 %config(noreplace) %verify(not md5 mtime size) /etc/dbus-1/system.d/nm-iodine-service.conf
 %{_datadir}/appdata/network-manager-iodine.appdata.xml
