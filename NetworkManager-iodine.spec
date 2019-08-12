@@ -47,7 +47,8 @@ Integracja NetworkManagera z iodine.
 %{__autoheader}
 %{__automake}
 %configure \
-	--disable-static
+	--disable-static \
+	--enable-more-warnings=yes
 %{__make}
 
 %install
