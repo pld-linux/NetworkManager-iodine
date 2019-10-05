@@ -48,7 +48,7 @@ Integracja NetworkManagera z iodine.
 %{__automake}
 %configure \
 	--disable-static \
-	--enable-more-warnings=yes \
+	--enable-more-warnings \
 	--without-libnm-glib
 %{__make}
 
@@ -59,8 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/NetworkManager/*.la
-
-# drop old gnome-shell support
 
 %find_lang NetworkManager-iodine
 
